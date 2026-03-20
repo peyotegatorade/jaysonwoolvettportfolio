@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+    <title>jayson woolvett, writer&amp;animator</title>
+    <link rel="icon" type="image/svg" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <style>
+        .columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        }
+
+        .left-column {
+        flex: 1;
+        max-width: 40%;
+        }
+
+        .left-column img {
+        display: block;
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: auto;
+        }
+
+        .right-column {
+        flex: 3;
+        max-width: 60%;
+        }
+
+        .right-column img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        }
+        @media screen and (max-width: 767px) {
+        .columns {
+        display: flex;
+        flex-direction: column;
+        }
+        .right-column {
+        flex: 3;
+        max-width: 100%;
+        }
+        .left-column {
+        flex: 1;
+        max-width: 100%;
+        }
+        }
+    </style>
+    <header>
+      <script>
+        fetch("header.html")
+          .then(response => response.text())
+          .then(data => document.querySelector("header").innerHTML = data);
+      </script>
+   
+    </header>
+    <main>
+
+      <div class="hero">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/Y3v4KZ8PGCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+          <br><b>Tranquil</b>
+          <br>Loosely inspired by a time I took a Greyhound bus across Canada.
+          <br>First film from animation school.
+          <br>
+          <br>☆Official Selection - Short Stack Film Festival 2017☆
+          <br>
+          <br><i>Credits:
+          <br>Animation - Jayson Woolvett
+          <br>Music - Finnish Whistler by Roger Whittaker</i>
+      </div> 
+      <div class="line"></div>
+      <div class="columns">
+          <div class="left-column">
+              <img src="images\TQ_scan01.png">
+              <img src="images\TQ_bg01.png">
+              <img src="images\TQ_concept01.jpg">
+          </div>
+          <div class="right-column">
+              <img src="images/TQ_bg02.png">
+          </div>
+      </div>
+
+    </main>
+    </body>
+    </html>

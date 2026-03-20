@@ -1,0 +1,529 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100px;
+}
+
+main {
+    margin-left: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+main a{
+    color: #333;    
+}
+
+main a:hover {
+    color: #000;
+}
+
+main ul a{
+    color: #333;    
+}
+
+main ul a:hover {
+    color: #000;
+}
+
+main ul li a{
+    color: #333;    
+}
+
+main ul li a:hover {
+    color: #000;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: #daf0ee;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: black;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+nav input[type="checkbox"] {
+    display: none;
+}
+  
+button.no-box {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.accordion {
+    background-color: #daf0ee;
+    color: #333;
+    cursor: pointer;
+    width: 41%;
+    border: none;
+    text-align: center;
+    align-items: center;
+    outline: none;
+    transition: 0.4s;
+}
+  
+  .accordion:hover {
+    background-color: #b5e4df;
+    color: #000;
+}
+
+.brucelee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    margin-left: 0; /* Add this to align the container to the left */
+    margin-right: 0; /* Add this to remove any default right margin */
+}
+
+.brucelee img {
+    width: 100%; /* Add this to limit the width of the container */
+    max-width: 700px;
+    height:auto;
+}
+
+.brucelee p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: .85rem;
+    color: #000;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+
+.contactcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.contactimage img {
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}  
+
+.footer-wrapper {
+    margin-top: auto;
+    color: #333;
+  }
+
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.hero {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.hero iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image {
+    max-width: 700px;
+    width:100%;
+    height: auto;
+}
+
+
+.left-column {
+    flex: 1;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 50%;
+}
+
+
+.right-column {
+  padding: 1rem;
+  width: 50%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+
+.home-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.home-left-column {
+  flex: 1;
+
+  width: 50%;
+}
+  
+
+.home-right-column {
+  flex: 1;
+
+  width: 50%;
+}
+
+.home-centre-column{
+  flex:1;
+  margin: 0 auto;
+  display: block;
+  width:50%;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.panel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.smalltext {
+    font-size: 0.8em;
+    color: #333;
+}
+
+a.tmntcontact {
+    text-decoration: underline;
+  }
+
+.tmnt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tmnt-indent {
+    text-indent: 40px;
+}
+
+.tmnt-info {
+    max-width:975px;
+    background-color: #fff;
+}
+
+.tmnthero {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.tmntlogocard {
+ 
+    max-width: 1500px;
+}
+
+.tmntvideo-container {
+    max-width: 1000px; /* Set the max-width to match the max-width of the video */
+    width: 100%;
+}
+
+.navstar {
+    color: #1b98e0;
+}
+
+.subtitle {
+    font-size: 0.8em;
+    font-style: italic;
+}
+.subtitlebold {
+    font-size: 0.8em;
+    font-style: bold, italic;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.vanimation {
+    background-color: #fffc52;
+    color: #333;
+    padding: 5px;
+}
+
+.vanimation:hover {
+    color: #000;
+}
+
+.video-container {
+    max-width: 1920px; /* Set the max-width to match the max-width of the video */
+    width: 100%;
+}
+
+.writing {
+  text-align: center;
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.writing-title {
+  font-weight: bold; /* Makes the title bold */
+  font-size: 1.25em; /* Optional: slightly larger for emphasis */
+}
+
+.writing-genre {
+  font-style: italic; /* Italicizes the genre */
+  font-size: 0.9em; /* Slightly smaller than default text */
+}
+
+@media screen and (max-width: 767px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }    
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+}
+
+.smalltext {
+  font-size: 0.7em;
+}
+
+.subtitle {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+main {
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+nav {
+  width: 100vw;
+  height: auto;
+  position: relative;
+
+}
+
+nav ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  background-color: #daf0ee;
+  z-index: 9999;
+}
+
+nav ul li {
+  margin-bottom: 0;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+nav input[type="checkbox"] {
+  display: none;
+}
+
+nav label[for="menu-toggle"] {
+  display: block;
+  cursor: pointer;
+}
+
+nav label[for="menu-toggle"]:before {
+  content: "\2630";
+  font-size: 30px;
+  line-height: 60px;
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+nav input[type="checkbox"]:checked ~ ul {
+  display: block;
+}
+
+main {
+  margin-left: 0;
+}
+
+.contactcontainer {
+  width: 95%;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right:0;
+}
+
+.footer-wrapper {
+    display:none;
+}
+
+.left-column {
+  flex: 1;
+  width: 100%;
+}
+.right-column {
+  flex: 1;
+  width: 100%;
+}
+
+.columns {
+  flex-direction: column ;
+}
+
+.home-columns {
+  flex-direction: column ;
+}
+
+.home-left-column {
+  width: 95%;
+}
+.home-right-column {
+  width: 95%;
+}
+.home-centre-column{
+  width:95%;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-top: 20px; /* adjust the value as needed */
+}
+}

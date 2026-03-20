@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <title>jayson woolvett, writer&amp;animator</title>
+    <link rel="icon" type="image/svg" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <style>
+
+  /* CONTACT PAGE */ 
+
+  /* CONTACT FORM */   
+  /* reset */
+  form input,
+  form select,
+  form textarea,
+  form fieldset,
+  form optgroup,
+  form label,
+  .StripeElement {
+      font-family: inherit;
+      font-size: 100%;
+      color: inherit;
+      border: none;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  form label,
+  form legend {
+      font-size: 0.825rem;
+      margin-bottom: 0.5rem;
+  }
+  /* border, padding, margin, width */
+  form input,
+  form select,
+  form textarea,
+  .StripeElement {
+      box-sizing: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 0.75em 1rem;
+      margin-bottom: 1.5rem;
+  }
+  form input:focus,
+  form select:focus,
+  form textarea:focus,
+  .StripeElement:focus {
+      background-color: white;
+      outline-style: solid;
+      outline-width: thin;
+      outline-color: gray;
+      outline-offset: -1px;
+  }
+  form [type="text"],
+  form [type="email"],
+  .StripeElement {
+      width: 100%;
+  }
+  form [type="button"],
+  form [type="submit"],
+  form [type="reset"] {
+      width: auto;
+      cursor: pointer;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+  }
+  form [type="button"]:focus,
+  form [type="submit"]:focus,
+  form [type="reset"]:focus {
+      outline: none;
+  }
+  form select {
+      text-transform: none;
+  }
+
+
+/* CONTACT FORM */
+
+  </style>
+  <body>
+    <header>
+      <script>
+        fetch("header.html")
+          .then(response => response.text())
+          .then(data => document.querySelector("header").innerHTML = data);
+      </script>
+    </header>
+    <main>
+      <div class="contactcontainer">
+        <div class="left-column">
+          <img class="image" src="images/yosemite.jpeg" alt="Yosemite">
+          <br>
+          <span class="subtitle">me in Yosemite National Park, California. 2022.</span>
+        </div>
+        <div class="right-column">
+            <p>Howdy!<br>
+            My name is jayson woolvett, and I’m a Canadian writer & animator whose currently alive and living in Kilkenny, Ireland.<br>
+            <br>
+            I am currently directing & producing a short film for my script The Ghost Town of The Desert Rat, and Lead FX & Tonals Animator at Cartoon Saloon.<br>
+           <br>
+           Get to know me with this list:
+           <br>🥍lacrosse🥍
+           <br>🏂snowboard🏂
+           <br>📝writing📝
+           <br>📖reading📖
+           <br>✈️adventuring✈️
+           <br>
+            🇨🇦 🇺🇸 🇯🇵 🇲🇽 🇫🇷 🇦🇷 🇧🇷 🇮🇪 🇳🇱 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇪🇸 🇵🇹 🇩🇪
+           <br>❤️annecy international animation film festival❤️
+           <br>
+           <br>
+
+            In the future, I would like to share an iced coffee with you because you read this page.</p>
+            <br>
+            
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzbqkqeb" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="full-name">Name</label>
+                      <input type="text" name="name" id="full-name" placeholder="benjamin franklin" required="">
+                      <label for="email-address">Email</label>
+                      <input type="email" name="_replyto" id="email-address" placeholder="seymourmovies@hotmail.com" required="">
+                      <label for="message">Message</label>
+                      <textarea rows="5" name="message" id="message" placeholder="hi, i'm jayson. i like adventure and things that require effort, innovation, and fun." required=""></textarea>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Send!">
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <title>jayson woolvett, writer&amp;animator</title>
+    <link rel="icon" type="image/svg" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+  }
+
+  .column-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  .column img {
+    max-width: 100%;
+    height: auto;
+  }
+  .column p {
+    margin-top: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .grid-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .columns {
+    display: flex;
+    align-items: flex-start;
+  }
+  .left-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  max-width: 100%;
+  margin-bottom: 0px;
+  }
+
+
+.left-column img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  flex: 1;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-bottom:30px;
+}
+  .right-column {
+    flex: 3;
+    max-width: 50%;
+  }
+  .right-column img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 767px) {
+    .columns {
+      display: block;
+      flex-direction: column;
+    }
+    .right-column {
+      flex: 3;
+      max-width: 100%;
+    }
+    .left-column {
+      flex: 1;
+      max-width: 100%;
+      align-items: stretch;
+      justify-content: flex-start;
+    }
+  }
+</style>
+<body>
+  <header>
+    <script>
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => document.querySelector("header").innerHTML = data);
+    </script>
+  </header>
+  <main>
+    <div class="container">
+      <img src="images/louisandfriends/LouisAndFriendsLogo.jpeg" class="logo" >
+      <div class="line"></div>
+      <div class="column-container">
+        <div class="column">
+          <img src="images/louisandfriends/RainyDay_1.png">
+        </div>
+        <div class="column" style="align-content:end;">
+          <br><br><br><br><br><br><br><br><p><span class="subtitle"><b>Season 2,</b><br>Rainy days.</p></span>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="left-column">
+            <div style="display: flex; flex: 2;max-width: 47%;">
+              <img src="images/louisandfriends/RainyDay_WhiteShirt.jpg">
+              <img src="images/louisandfriends/RainyDay_BlackShirt.jpeg">
+            </div>
+            <img src="images/louisandfriends/RainyDay_Hoodie.jpeg" style="flex: 3;">
+          </div>
+       
+        <div class="right-column">
+
+          <img src="images/louisandfriends/RainyDay_Big.png">
+			</div>
+		</div>
+		<div class="column-container">
+			<div class="column">
+				<img src="images/louisandfriends/Louis01.jpeg">
+			</div>
+			<div class="column" style="align-content: center;">
+				<br><br><br><br><br><br><br><br><p><span class="subtitle"> <b>Season 1,</b>
+                <br>The Pizza Boy, The Harlem Ballerina, and The Lucky Lost.
+                </p></span>
+			</div>
+		</div>
+		<div class="grid-container">
+			<img src="images/louisandfriends/shirt05.jpeg">
+			<img src="images/louisandfriends/Louis_WhiteDetail.jpg">
+      
+			<img src="images/louisandfriends/Liz_Black.jpg">
+			<img src="images/louisandfriends/Liz_Detail.jpeg">
+      
+			<img src="images/louisandfriends/HB_Far.jpg">
+			<img src="images/louisandfriends/HB_PinkDetail.jpg">
+		</div>
+	</div>
+
+
+
+</main>
+</body>
+</html>
