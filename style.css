@@ -389,25 +389,27 @@ a.tmntcontact {
 
 body {
   background-color: white;
-  color: black;
+  color: #121212;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
 header {
   background-color: white;
-  color: black;
+  color: #121212;
   font-family: Arial, Helvetica, sans-serif;
   width: 100vw;
 }
 
 .smalltext {
   font-size: 0.7em;
+  color:#CCCCCC;
 }
 
 .subtitle {
   font-size: 0.8em;
   font-style: italic;
+  color:#CCCCCC;
 }
 
 .title {
@@ -435,7 +437,7 @@ nav ul {
   top: 60px;
   left: 0;
   width: 100vw;
-  background-color: #daf0ee;
+  background-color: #121212;
   z-index: 9999;
 }
 
@@ -445,13 +447,13 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 10px;
-  color: #333;
+  color: #CCC;
   text-decoration: none;
   transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #000;
+  color: #FFF;
 }
 
 nav input[type="checkbox"] {
@@ -490,7 +492,7 @@ main {
 
 .footer-wrapper {
     display:none;
-    color:#CCCCCC
+    color:#CCCCCC;
 }
 
 .left-column {
