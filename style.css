@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    color: black;
+    color: #121212;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ footer {
 
 header {
     background-color: white;
-    color: black;
+    color: #121212;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 100px;
 }
@@ -490,6 +490,7 @@ main {
 
 .footer-wrapper {
     display:none;
+    color:#CCCCCC
 }
 
 .left-column {
