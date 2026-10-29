@@ -65,7 +65,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: white;
     transition: background-color 0.3s;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -84,13 +84,13 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 0px;
-    color: #333;
+    color: #CCC;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #000;
+    color: #FFF;
 }
 
 nav input[type="checkbox"] {
