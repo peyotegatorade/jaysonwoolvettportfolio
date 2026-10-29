@@ -178,7 +178,7 @@ button.no-box {
 
 .footer-wrapper {
     margin-top: auto;
-    color: #333;
+    color: #CCC;
   }
 
 .header-bottom {
@@ -327,6 +327,7 @@ a.tmntcontact {
 .subtitle {
     font-size: 0.8em;
     font-style: italic;
+    color:#CCC;
 }
 .subtitlebold {
     font-size: 0.8em;
